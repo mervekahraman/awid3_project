@@ -1,0 +1,15 @@
+{
+  "iso": {
+    "threshold": -0.025663485924578067
+  },
+  "ocsvm": {
+    "threshold": -4.744628388163701
+  },
+  "vae": {
+    "threshold": 1.6160705089569092
+  },
+  "deepsvdd": {
+    "threshold": null,
+    "error": "Encoder.__init__() got an unexpected keyword argument 'input_dim'"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "IsolationForest": {
+    "model": "IsolationForest",
+    "pr_auc": 0.4671767939374385,
+    "best_thr": -0.2988767845027708,
+    "best_f1": 0.6704545454540924,
+    "confusion_matrix": [
+      [
+        5,
+        56
+      ],
+      [
+        2,
+        59
+      ]
+    ]
+  },
+  "OneClassSVM": {
+    "model": "OneClassSVM",
+    "pr_auc": 0.42729327647078524,
+    "best_thr": -10.275362673721222,
+    "best_f1": 0.6666666666662222,
+    "confusion_matrix": [
+      [
+        0,
+        61
+      ],
+      [
+        0,
+        61
+      ]
+    ]
+  },
+  "VAE": {
+    "model": "VAE",
+    "pr_auc": 0.45275292955312857,
+    "best_thr": 0.0395754911005497,
+    "best_f1": 0.6666666666662222,
+    "confusion_matrix": [
+      [
+        0,
+        61
+      ],
+      [
+        0,
+        61
+      ]
+    ]
+  }
+}
